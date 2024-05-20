@@ -1,14 +1,14 @@
 ---
-title: "Dartのマイクロプログラミングを触ってみた"
+title: "Dart Macrosを触ってみた"
 emoji: "😎"
 type: "tech"
-topics: ["Flutter", "Dart", "マイクロプログラミング", "JsonCodable"]
+topics: ["Flutter", "Dart", "Dart Macros", "JsonCodable"]
 publication_name: "minma"
 published: true
 ---
 ## はじめに
 
-2024年5月、Flutter 3.22がリリースされました。その中でも注目すべき新機能が、Dartのマイクロプログラミングです。
+2024年5月、Flutter 3.22がリリースされました。その中でも注目すべき新機能が、`Dart Macros`です。
 特に、JSONシリアライズとデシリアライズを大幅に簡素化する[JsonCodable](https://pub.dev/packages/json/versions/0.20.0)という機能が追加されました。
 本記事では、`JsonCodable`の使い方、利点などを解説します。
 
